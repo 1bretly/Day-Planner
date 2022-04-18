@@ -8,7 +8,7 @@ Use the daily planner to create a schedule. The current day is displayed at the 
 
 
 <!-- Preview of website -->
-![Calander.](./Assets/05-third-party-apis-homework-demo.gif)
+![Calander.]()
 
 <!-- Links to Github and deployed site -->
 https://github.com/1bretly/Homework-Work-Day-Scheduler
