@@ -13,14 +13,14 @@ $(document).ready(function () {
     })
 
     function whatTime() {
-        //get current number of hours.
+        
         let currentTime = moment().hour();
 
         // loop over hour blocks
         $(".hour-block").each(function () {
             let blockTime = parseInt($(this).attr("id").split("hour")[1]);
 
-            // To check the time and add the classes for background indicators
+            // Add color to hour blocks
             if (blockTime < currentTime) {
                 $(this).removeClass("future");
                 $(this).removeClass("present");

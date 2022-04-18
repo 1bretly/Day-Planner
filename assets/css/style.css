@@ -1,6 +1,6 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
   line-height: 1;
 }
 
@@ -15,10 +15,16 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: navy;
+  text-shadow: 2px 2px orange;
+  color: whitesmoke;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border: 10px solid black;
+}
+
+.lead {
+  font-style: italic;
+  text-shadow: none;
 }
 
 .task {
@@ -68,4 +74,33 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+footer {
+  background-color: navy;
+  text-shadow: 1px 1px orange;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 25px;
+  border: 10px solid black;
+  border-radius: none;
+}
+
+.git-hub {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.githubicon {
+  height: 3em;
+  content: url(../images/GitHub.png);
+  object-fit: contain;
+  filter: invert(1);
+  margin-bottom: 15px;
+}
+
+span {
+  color: orange;
+  text-shadow: 1px 1px whitesmoke;
 }
